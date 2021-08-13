@@ -1522,14 +1522,14 @@ img {
 }
 
 .l-main-visual {
-  background-image: url(../../img/common/hero.jpg);
+  background-image: url(https://github.com/Ri7cky/PonDesign/blob/main/img/common/hero.jpg?raw=true);
   background-position: center bottom;
   height: 100vh;
   position: relative;
 }
 
 .l-main-visual--heading {
-  background-image: url(../../img/common/hero.jpg);
+  background-image: url(https://github.com/Ri7cky/PonDesign/blob/main/img/common/hero.jpg?raw=true);
   background-position: center center;
   height: 30vh;
   position: relative;
