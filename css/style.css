@@ -675,8 +675,8 @@ img {
   display: inline-block;
   position: fixed;
   z-index: 30;
-  bottom: 70px;
-  right: 60px;
+  bottom: 45px;
+  right: 45px;
   width: 50px;
   display: none;
 }
