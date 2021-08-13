@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+	<meta charset="utf-8">
+	<title>CONTACT | Pon Design</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- css ここでCSSを読み込んでいます -->
+	<link rel="stylesheet" href="css/ress.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Swiperを読み込む -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+	<!-- FontAwesome ここでFontAwesomeを読み込んでいます -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+	
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+
+	<!-- js ここでjQueryとjsフォルダのmy.jsファイルを読み込みんでいます -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<!-- header -->
+	<header class="l-header">
+		<div class="c-header-logo l-header__logo">
+			<a href="index.html"><img src="img/common/logo.svg" alt="logo"></a>
+		</div>
+		<ul class="c-global-list l-header__list">
+			<li class="c-global-list__item"><a href="news.html">NEWS</a></li>
+			<li class="c-global-list__item"><a href="service.html">SERVICE</a></li>
+			<li class="c-global-list__item"><a href="works.html">WORKS</a></li>
+			<li class="c-global-list__item"><a href="company.html">COMPANY</a></li>
+			<li class="c-global-list__item"><a href="recruit.html">RECRUIT</a></li>
+			<li class="c-global-list__item"><a href="contact.html">CONTACT</a></li>
+		</ul>
+		<div class="js-c-hamburger l-header__hamburger">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<div class="js-p-menu-modal l-header__modal">
+			<ul class="js-c-menu-list p-menu-modal__list">
+				<li class="js-c-menu-list__item"><a href="news.html">NEWS</a></li>
+				<li class="js-c-menu-list__item"><a href="service.html">SERVICE</a></li>
+				<li class="js-c-menu-list__item"><a href="works.html">WORKS</a></li>
+				<li class="js-c-menu-list__item"><a href="company.html">COMPANY</a></li>
+				<li class="js-c-menu-list__item"><a href="recruit.html">RECRUIT</a></li>
+				<li class="js-c-menu-list__item"><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<div class="l-header-background-color">
+
+		</div>
+	</header>
+
+	<!-- main-visual--heading -->
+	<section class="l-main-visual--heading">
+		<div class="p-heading-inner">
+			<div class="c-heading p-main-heading__text">
+				<h1 class="c-heading__en">CONTACT</h1>
+				<p class="c-heading__ja">お問い合わせ</p>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- 会社概要 -->
+	<section class="l-contact-details l-section">
+		<div class="l-inner">
+			<p class="c-section-text l-contact-details__title">Webサイトの制作のご依頼やお見積りなど、お気軽にご相談ください。</p>
+			<div class="p-gray-wrap l-contact-details__gray-wrap">
+				<form class="p-contact-form" action="#" method="POST">
+					<dt><label class="p-contact-form__label" for="type">お問い合わせ種別</label><span class="c-attention"><sup>*</sup>必須</span></dt>
+						<dd>
+							<span class="p-contact-form__radio-button"><input type="radio" name="contact" value="works">お仕事のご依頼・ご相談</span>
+							<span class="p-contact-form__radio-button"><input type="radio" name="contact" value="estimate">お見積りのご依頼</span>
+							<span class="p-contact-form__radio-button"><input type="radio" name="contact" value="recruit">採用について</span>
+							<span class="p-contact-form__radio-button"><input type="radio" name="contact" value="others">その他</span>
+						</dd>
+	
+					<dt><label class="p-contact-form__label" for="type">お名前</label><span class="c-attention"><sup>*</sup>必須</span></dt>
+						<dd class="p-contact-form__textbox"><input type="text" name="contact"></dd>
+						
+					<dt><label class="p-contact-form__label" for="company">会社名</label></dt>
+						<dd class="p-contact-form__textbox"><input type="text" name="contact"></dd>
+	
+					<dt><label class="p-contact-form__label" for="email">メールアドレス</label><span class="c-attention"><sup>*</sup>必須</span></dt>
+						<dd class="p-contact-form__textbox"><input type="text" name="contact"></dd>
+	
+					<dt><label class="p-contact-form__label" for="tel">お電話番号</label><span class="c-attention c-attention--color_black">（半角数字ハイフンなし）</span></dt>
+						<dd class="p-contact-form__textbox"><input type="text" name="contact"></dd>
+	
+					<dt><label class="p-contact-form__label" for="details">お問い合わせ内容</label><span class="c-attention"><sup>*</sup>必須</span></dt>
+						<dd class="p-contact-form__textarea"><textarea name="details" cols="30" rows="10"></textarea></dd>
+	
+					<dt><label class="p-contact-form__label" for="type">PON DESIGNをどちらでお知りになりましたか？</label><span class="c-attention"><sup>*</sup>必須</span></dt>
+						<dd>
+							<select class="p-contact-form__select" name="places1" size="1">
+								<option value="search">Google/Yahoo検索</option>
+								<option value="sns">SNS</option>
+								<option value="blog">ブログ</option>
+								<option value="friends">友人や知人</option>
+								<option value="others">その他</option>
+							</select> 
+						</dd>
+	
+				</form>
+				<div class="c-button p-contact-form__button">
+					<a><input type="submit" value="送信する"></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+	<!-- footer -->
+	<footer class="l-footer">
+		<ul class="c-footer-list l-footer__list">
+			<li class="c-footer-list__item"><a href="index.html">HOME</a></li>
+			<li class="c-footer-list__item"><a href="news.html">NEWS</a></li>
+			<li class="c-footer-list__item"><a href="service.html">SERVICE</a></li>
+			<li class="c-footer-list__item"><a href="works.html">WORKS</a></li>
+			<li class="c-footer-list__item"><a href="recruit.html">COMPANY</a></li>
+			<li class="c-footer-list__item"><a href="recruit.html">RECRUIT</a></li>
+			<li class="c-footer-list__item"><a href="contact.html">CONTACT</a></li>
+		</ul>
+		<p class="c-footer-copy l-footer__copy">&copy;PON DESIGN</p>
+	</footer>
+
+	<script type="text/javascript" src="js/script.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>
