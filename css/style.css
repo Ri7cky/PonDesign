@@ -674,7 +674,8 @@ img {
 .c-top-button {
   display: inline-block;
   position: fixed;
-  bottom: 60px;
+  z-index: 30;
+  bottom: 70px;
   right: 60px;
   width: 50px;
   display: none;
