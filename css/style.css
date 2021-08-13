@@ -1116,7 +1116,7 @@ img {
 }
 
 .p-company-inner {
-  background-image: url(../../img/common/bg-face.png), url(../../img/common/bg-circle.png);
+  background-image: url(https://github.com/Ri7cky/PonDesign/blob/main/img/common/bg-face.png?raw=true), url(https://github.com/Ri7cky/PonDesign/blob/main/img/common/bg-circle.png?raw=true);
   background-position: center center,center center;
   text-align: center;
   padding: 136px 20px;
@@ -1124,7 +1124,7 @@ img {
 
 @media screen and (max-width: 767px) {
   .p-company-inner {
-    background-image: url(../../img/common/cirlcles.png);
+    background-image: url(https://github.com/Ri7cky/PonDesign/blob/main/img/common/circles.png?raw=true);
     background-position: center center;
     padding: 40px 20px;
   }
