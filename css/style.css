@@ -859,7 +859,7 @@ img {
 .c-recruit-image {
   overflow: hidden;
   height: 780px;
-  background-image: url(../../img/recruit/recruit-image.png);
+  background-image: url(../img/recruit/recruit-image.png);
   background-repeat: no-repeat;
   background-position: center 80%;
   background-size: cover;
@@ -1116,7 +1116,7 @@ img {
 }
 
 .p-company-inner {
-  background-image: url(../../img/common/bg-face.png), url(../../img/common/bg-circle.png);
+  background-image: url(../img/common/bg-face.png), url(../img/common/bg-circle.png);
   background-position: center center,center center;
   text-align: center;
   padding: 136px 20px;
@@ -1124,7 +1124,7 @@ img {
 
 @media screen and (max-width: 767px) {
   .p-company-inner {
-    background-image: url(../../img/common/cirlcles.png);
+    background-image: url(../img/common/cirlcles.png);
     background-position: center center;
     padding: 40px 20px;
   }
@@ -1522,14 +1522,14 @@ img {
 }
 
 .l-main-visual {
-  background-image: url(../../img/common/hero.jpg);
+  background-image: url(../img/common/hero.jpg);
   background-position: center bottom;
   height: 100vh;
   position: relative;
 }
 
 .l-main-visual--heading {
-  background-image: url(../../img/common/hero.jpg);
+  background-image: url(../img/common/hero.jpg);
   background-position: center center;
   height: 30vh;
   position: relative;
